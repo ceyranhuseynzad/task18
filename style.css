@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1550px;
+  margin: auto;
+  padding: 0 40px;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#bir {
+  padding: 50px 0;
+}
+#bir .bir {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+#bir .bir .sol {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 10px;
+}
+#bir .bir .sol .n p {
+  font-size: 20px;
+  color: rgb(196, 69, 69);
+  font-weight: bold;
+  position: relative;
+  margin-left: 55px;
+}
+#bir .bir .sol .n p::before {
+  content: "";
+  width: 30px;
+  height: 1px;
+  background-color: rgb(196, 69, 69);
+  position: absolute;
+  top: 12px;
+  left: -50px;
+}
+#bir .bir .sol .h h2 {
+  font-size: 50px;
+}
+#bir .bir .sol .i {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#bir .bir .sol .i p {
+  font-size: 17px;
+}
+#bir .bir .sol .i p a {
+  text-decoration: none;
+  margin-left: 10px;
+}
+#bir .bir .sol .imgs {
+  display: flex;
+  gap: 30px;
+}
+#bir .bir .sag {
+  margin-top: 20px;
+  width: 40%;
+  position: relative;
+}
+#bir .bir .sag .bi {
+  position: absolute;
+  font-size: 60px;
+  color: white;
+  top: calc((100% - 35px) / 2);
+  left: calc((100% - 64px) / 2);
+  background-color: rgb(196, 13, 13);
+  border-radius: 60%;
+  padding: 10px;
+}
+
+#elaqe {
+  background-image: url(https://templatemo.com/templates/templatemo_558_klassy_cafe/assets/images/reservation-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 0;
+}
+#elaqe .elaqe {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+#elaqe .elaqe .sol {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 45%;
+  margin-top: 10px;
+  color: white;
+}
+#elaqe .elaqe .sol .n p {
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  margin-left: 55px;
+}
+#elaqe .elaqe .sol .n p::before {
+  content: "";
+  width: 30px;
+  height: 1px;
+  background-color: white;
+  position: absolute;
+  top: 12px;
+  left: -50px;
+}
+#elaqe .elaqe .sol .h h2 {
+  font-size: 50px;
+}
+#elaqe .elaqe .sol .i {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#elaqe .elaqe .sol .i p {
+  font-size: 17px;
+}
+#elaqe .elaqe .sol .i p a {
+  text-decoration: none;
+  margin-left: 10px;
+}
+#elaqe .elaqe .sol .rds {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+#elaqe .elaqe .sol .rds .rd {
+  width: 45%;
+  height: 150px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  border-radius: 10px;
+}
+#elaqe .elaqe .sol .rds .rd .icn {
+  background-color: brown;
+  border-radius: 50%;
+  padding: 10px 15px;
+  width: 50px;
+  margin: auto;
+  position: absolute;
+  top: -25px;
+  left: calc((100% - 50px) / 2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#elaqe .elaqe .sol .rds .rd .icn .bi {
+  color: white;
+  font-size: 30px;
+}
+#elaqe .elaqe .sol .rds .rd .i {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+#elaqe .elaqe .sol .rds .rd .i h4 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+#elaqe .elaqe .sol .rds .rd .i p {
+  font-size: 19px;
+}
+#elaqe .elaqe .sag .form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+#elaqe .elaqe .sag .form .block {
+  text-align: center;
+}
+#elaqe .elaqe .sag .form .block1 {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+#elaqe .elaqe .sag .form .block1 .input {
+  width: 49%;
+  height: 40px;
+}
+#elaqe .elaqe .sag .form .block1 .input input {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  padding: 5px 10px;
+  outline: none;
+  border: 1px solid gainsboro;
+  font-size: 20px;
+}
+#elaqe .elaqe .sag .form .block1 .input input:focus {
+  border: 1px solid red;
+}
+#elaqe .elaqe .sag .form .block2 {
+  width: 100%;
+}
+#elaqe .elaqe .sag .form .block2 textarea {
+  margin: 10px 0;
+  width: 100%;
+  border-radius: 10px;
+  padding: 5px 10px;
+  outline: none;
+  border: 1px solid gainsboro;
+  font-size: 20px;
+  color: grey;
+}
+#elaqe .elaqe .sag .form .block2 textarea:focus {
+  border: 1px solid red;
+}
+#elaqe .elaqe .sag .form .block3 {
+  width: 100%;
+  height: 199px;
+}
+
+@media screen and (max-width: 1000px) {
+  #elaqe .elaqe {
+    flex-wrap: wrap;
+  }
+  #elaqe .elaqe .sol {
+    width: 100%;
+  }
+  #elaqe .elaqe .sol .rds .rd {
+    width: 100%;
+  }
+  #elaqe .elaqe .sag {
+    width: 100%;
+  }
+  #elaqe .elaqe .sag .form .block1 {
+    flex-wrap: wrap;
+  }
+  #elaqe .elaqe .sag .form .block1 .input {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #bir .bir {
+    flex-wrap: wrap;
+  }
+  #bir .bir .sol {
+    width: 100%;
+  }
+  #bir .bir .sag {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}/*# sourceMappingURL=style.css.map */
